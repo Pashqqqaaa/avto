@@ -1,0 +1,997 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Museo Sans Cyrl 700'
+}
+}
+.box {
+    max-width: 670px;
+}
+input#f_phone {
+    padding: 19px 15px;
+    border-radius: 45px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #fff;
+    font-size: 19px;
+    text-align: center;
+        outline: none;
+}
+input#f_pho {
+    padding: 19px 15px;
+    border-radius: 45px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #fff;
+    font-size: 19px;
+    text-align: center;
+        outline: none;
+}
+div#feedback {
+    background: url(img/bg.jpg);
+}
+button.fancybox-button.fancybox-close-small {
+    color: #fff;
+    font-weight: bold;   
+}
+button.fancybox-button.fancybox-close-small:hover{
+    color: red;
+}
+.okno{
+    background: url(img/bg.jpg) top center;
+    width: 95% !important;
+    max-width: 378px !important;
+    text-align: center !important;
+    padding: 22px 0 0;
+}
+button#f_send {
+    text-decoration: none;
+    color: #fff;
+    padding: 19px 79px;
+    border: 1px solid #f40b0b;
+    background: #f40b0b;
+    border-radius: 52px;
+    box-shadow: 0px 5px 21px 5px #f40b0b;
+    font-size: 19px;
+    font-weight: 700;
+}
+button#f_send:hover {
+    box-shadow: 0px 5px 21px 5px #a40CB8;
+}
+.okno p{
+    color: #fff;
+    font-family: 'Museo Sans Cyrl 700';
+    font-size: 29px;
+}
+header {
+    background: url(img/fon1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 877px;
+    background-size: cover;
+}
+.main{
+    width:1170px;
+    margin: 0 auto;
+}
+.block1_1{
+    display: flex;
+    justify-content: space-between;
+}
+.navig{
+    display: flex;
+    justify-content: space-between;
+     padding-top: 20px;
+}
+.logo{
+    width: 100%;
+    max-width: 330px;
+    position: relative;
+}
+.logo img{
+    z-index: 1;
+    position: relative;
+    margin: 13px 40px 0px 0px;
+    width: 300px;
+}
+.logo a::after{
+    content: '';
+    width: 1000px;
+    background: #fff;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 50px 50px 0%;
+}
+.logo a{
+    position: relative;
+    display: table;
+}
+.navig a{
+    text-decoration: none;
+}
+.navig p {
+    color: #fff;
+    height: 67px;
+    margin-right: 30px;
+    line-height: 67px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.navig h1:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.block1_2 h1 {
+    color: #fff;
+    padding-top: 142px;
+    font-size: 68px;
+}
+.block1_2 p {
+    font-size: 32px;
+    color: #fff;
+    padding: 65px;
+    margin-bottom: 50px;
+}
+.navig h1{
+    font-size: 22px;
+    color: #fff;
+    padding: 20px 43px;
+    border: 1px solid;
+    border-radius: 55px;
+}
+.block1_2 a {
+    padding: 35px 70px;
+    border: 1px solid #f10e0e;
+    background: #f10e0e;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0px 11px 59px 7px #f10e0e;
+}
+.block1_2 a:hover {
+    box-shadow: 0px 8px 42px 20px #F10E40;
+}
+.barsik{
+    background-color: #efefef;
+    height: 20px;
+}
+.grey::after {
+    content: '';
+    width: 1000px;
+    display: table;
+    background-color: #f4f4f4;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 503px;
+}
+.br img{
+    margin: 10px 0px 0px -46px;
+}
+.grey{
+    width: 170px;
+    position: relative;
+}
+.xxxxx{
+    display: flex;
+}
+.br h1 {
+    font-size: 46px;
+    line-height: 60px;
+    font-family: 'Museo Sans Cyrl 700';
+    color: #2c2c2c;
+    /* padding: 122px 0 0; */
+    align-self: center;
+    max-width: 563px;
+}
+.br{
+    position: relative;
+    height: 503px;
+    display: flex;
+}
+.chair_block{
+    height: 439px;
+    overflow: hidden;
+    background: url(img/bx2.jpg) top center no-repeat;
+}
+.b3-rg h1{
+    padding: 75px;
+    width: 340px;
+    font-size: 37px;
+    z-index: 1;
+    position: relative;
+}
+.b3-rg p{
+    width: 359px;
+    padding: 20px 210px;
+    font-size: 24px;
+}
+img.cha{
+    height: 479px;
+    position: relative;
+    top: -300px;
+    right: -650px;
+    z-index: 6;
+}
+img.sha {
+    position: absolute;
+    top: -396px;
+    right: -66%;
+    z-index: 5;
+}
+
+.bx2 {
+    display: table;
+    width: 100%;
+}
+.b2-lf {
+    width: 170px;
+    position: relative;
+}
+p.numb {
+    margin: 207px 0px 0px -42px;
+    color: #f5f5f5;
+    font-size: 72px;
+    transform: rotate(-90deg);
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    font-family: 'MuseoSansCyrl_900';
+}
+.bx2 p.numb:after {
+    width: 100px;
+    height: 3px;
+    background: #f5f5f5;
+    display: table;
+    content: "";
+    margin-left: 0;
+    margin: -43px 0 0 -115px;
+}
+.b2-lf::after {
+    content: '';
+    background: #fff;
+    width: 1000px;
+    position: absolute;
+    display: table;
+    height: 600px;
+    right: 0;
+    top: 0;
+}
+img.sha2 {
+    position: absolute;
+    right: 172px;
+    z-index: 6;
+    top: -110px;
+    transition: 0.5s;
+}
+.img{
+    position: relative;
+    width: 100%;
+}
+
+img.sha2:hover {
+    transform: rotate(-360deg);
+}
+.music_section{
+    background-image: url(img/fon4.png);
+    background-repeat: no-repeat;
+    height: 497px;
+    background-position: center;
+    overflow: hidden;
+}
+img.phone {
+    position: absolute;
+    z-index: 3;
+    top: 8px;
+    left: -137px;
+}
+img.mus {
+    position: relative;
+    left: 24%;
+    bottom: -152px;
+    width: 133px;
+    height: 133px;
+    z-index: 4;
+}
+img.mus:hover {
+    transform: rotate(-360deg);
+    transition: 0.5s;
+}
+img.sharik {
+    position: relative;
+    /* right: 31px; */
+    left: -644px;
+    top: -271px;
+}
+.foot_section{
+    background-image: url(img/fon5.png);
+    background-repeat: no-repeat;
+    height: 497px;
+    background-position: center;
+    overflow: hidden;
+}
+p.numbi:after {
+    width: 100px;
+    height: 3px;
+    background: #fff;
+    display: table;
+    content: "";
+    margin-left: 0;
+    margin: -43px 0 0 -115px;
+}
+p.numbi {
+    margin: 0;
+    color: #FFF;
+    font-size: 72px;
+    position: relative;
+    z-index: 1;
+    font-family: 'MuseoSansCyrl_900';
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    text-align: center;
+    position: absolute;
+    bottom: -280px;
+    left: 28px;
+    width: 78px;
+    z-index: 2;
+}
+p.numbi::before {
+    width: 100px;
+    height: 3px;
+    background: #fff;
+    display: table;
+    content: "";
+    /* margin-right: 0; */
+    margin: -52px 0px -40px 108px;
+}
+.b3-lf{
+    position: relative;
+}
+.b4-lf{
+    position: relative;
+}
+img.foot{
+    position: absolute;
+    top: -19px;
+    right: 0;
+    z-index: 3;
+}
+img.shari {
+    position: absolute;
+    right: -700px;
+    top: -120px;
+}
+img.pedal {
+    position: absolute;
+    right: 183px;
+    top: 245px;
+    z-index: 5;
+    transition: 0.5s;
+}
+img.pedal:hover {
+    transform: rotate(-360deg);
+    transition: 0.5s;
+}
+.info h1{
+    position: absolute;
+    right: 19%;
+    top: 185px;
+    font-size: 45px;
+    font-family: 'MuseoSansCyrl_700';
+}
+.info{
+    position: relative;
+    width: 100%;
+}
+.inform{
+    position: relative;
+    width: 100%;
+}
+.inform h1{
+    position: absolute;
+    top: 222px;
+    font-size: 45px;
+    left: 180px;
+    font-family: 'MuseoSansCyrl_700';
+}
+p.numbiru:after {
+    width: 100px;
+    height: 3px;
+    background: #f5f5f5;
+    display: table;
+    content: "";
+    margin-left: 0;
+    margin: -43px 0 0 -115px;
+}
+p.numbiru {
+    margin: 0;
+    color: #F5F5F5;
+    font-size: 72px;
+    position: relative;
+    z-index: 1;
+    font-family: 'MuseoSansCyrl_900';
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    text-align: center;
+    position: absolute;
+    bottom: -280px;
+    left: 28px;
+    width: 78px;
+    z-index: 2;
+}
+p.numbiru::before {
+    width: 100px;
+    height: 3px;
+    background: #f5f5f5;
+    display: table;
+    content: "";
+    /* margin-right: 0; */
+    margin: -52px 0px -40px 108px;
+}
+.bus_section{
+    background-image: url(img/fon6.png);
+    background-repeat: no-repeat;
+    height: 444px;
+    background-position: center;
+    overflow: hidden;
+}
+img.toyo {
+    position: absolute;
+    right: 0;
+    top: 217px;
+    width: 478px;
+}
+img.arrow {
+    position: absolute;
+    right: 37%;
+    top: 292px;
+    width: 142px;
+}
+img.bus {
+    position: absolute;
+    width: 628px;
+    top: 0px;
+}
+.idea h1 {
+    position: absolute;
+    right: 31%;
+    top: 123px;
+    font-size: 25px;
+}
+.idea p {
+    position: absolute;
+    right: 34%;
+    top: 230px;
+}
+.idea {
+    width: 100%;
+    position: relative;
+    /* right: 50%; */
+    z-index: 25;
+    /* text-align: center; */
+    color: #fff;
+}
+img.icon {
+    position: absolute;
+    right: 47%;
+    top: 6px;
+}
+img.icon:hover {
+    transform: rotate(-360deg);
+    transition: 0.5s;
+}
+.section_man{
+    background: url(img/fon7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 680px;
+    overflow: hidden;
+}
+.man_text p{
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 30px;
+    font-family: 'MuseoSansCyrl_700';
+}
+.left_man p{
+    padding: 12px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 104px;
+    display: table;
+}
+.baby{
+    width: 130px;
+    display: table;
+    text-align: center;
+}
+.right_man p{
+    padding: 12px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 104px;
+        text-align: center;
+    display: table;
+}
+.prof{
+    width: 130px;
+    display: table;
+    text-align: center;
+}
+.man_cont{
+    display: inline-flex;
+}
+.left_man, .right_man{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin: 102px 0px;
+}
+.kns{
+    width: 610px;
+    text-align: center;
+    position: relative;
+}
+.kns a{
+    padding: 16px 70px;
+    background-color: #dd2121;
+    z-index: 6;
+    text-align: center;
+    position: absolute;
+    border-radius: 50px;
+    bottom: 0px;
+        bottom: 136px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.man{
+    width: 840px;
+}
+img .man{
+    width: 840px;
+}
+.slider_section{
+    background-color: #f2f2f2;
+    height: 460px;
+}
+.slick{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.slick-item p {
+    color: #2c2c2c;
+    font-size: 22px;
+    font-family: 'Museo Sans Cyrl 700';
+}
+.avt{
+    width: 100%;
+    display: inline-block;
+}
+.slick img {
+    display: inline-block !important;
+    margin: 0 auto;
+}
+.slick button{
+    width: 42px !important;
+    height: 42px !important;
+    background-color: #fff !important;
+    border-radius: 50%;
+        z-index: 99999999999;
+}
+.slick button:hover {
+    background-color: #3baa35 !important;
+}
+.slick-prev{
+    background: #fff url(img/lf.png) no-repeat center !important;
+} 
+
+.slick-next{
+    background: #fff url(img/rg.png) no-repeat center !important;
+} 
+.slick-prev:before {
+    content: none !important;
+}
+.slick-next:before {
+    content: none !important;
+}
+.features_section{
+    background: url(img/fon8.png) top center no-repeat;
+    overflow: hidden;
+    height: 620px;
+}
+.phone_box p{
+    vertical-align: middle;
+    display: inline-block;
+    /* color: #fff; */
+    color: #2c2c2c;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'MuseoSansCyrl_100';
+    margin-left: 19px;
+}
+.tx_phone1 img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.tx_phone2 img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.tx_phone3 img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.phone_box {
+    display: inline-block;
+    position: absolute;
+    max-width: 670px;
+    right: -60px;
+    width: 100%;
+    margin-top: 70px;
+}
+.krug{
+    position: absolute;
+    top: 140px;
+    left: 167px;
+    margin-top: 70px;
+    z-index: 1;
+}
+.features_cont{
+    position: relative;
+}
+img.app:hover {
+    transition: 0.5s;
+    transform: rotate(-360deg);
+}
+img.phn{
+    margin-top: 70px;
+        position: relative;
+}
+.phone_box h1{
+    font-size: 39px;
+    padding-left: 24px;
+    color: #fff;
+    font-family: 'MuseoSansCyrl_700';
+    padding-bottom: 53px;
+}
+
+.tx_phone1:before {
+    content: "";
+    width: 2500px;
+        left: -225px;
+    display: table;
+    height: 90px;
+    background-color: #efefef;
+    position: absolute;
+}
+.tx_phone1:hover {
+    background: #dedddd;
+}
+.tx_phone1:hover:before {
+    background: #dedddd;
+}
+.tx_phone1 {
+    background: #efefef;
+    min-height: 90px;
+    display: table;
+    width: 100%;
+    position: relative;
+}
+.ic-itm, .ico-itm, .icon-itm{
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+}
+.tx_phone2:hover {
+    background: #dedddd;
+}
+.tx_phone2:hover:before {
+    background: #dedddd;
+}
+.tx_phone2:before {
+    content: "";
+    width: 2500px;
+    display: table;
+    height: 90px;
+        left: -225px;
+    background-color: #fff;
+    position: absolute;
+}
+.tx_phone2 {
+    background: #fff;
+    min-height: 90px;
+    display: table;
+    width: 100%;
+    position: relative;
+}
+.tx_phone3:hover {
+    background: #dedddd;
+}
+.tx_phone3:hover:before {
+    background: #dedddd;
+}
+.tx_phone3:before {
+    content: "";
+    width: 2500px;
+    display: table;
+    height: 90px;
+    background-color: #efefef;
+    position: absolute;
+        left: -225px;
+}
+.tx_phone3 {
+    background: #efefef;
+    min-height: 90px;
+    display: table;
+    width: 100%;
+    position: relative;
+}
+.section_avto{
+    background-color: #efefef;
+}
+.section_avto h1{
+    text-align: center;
+    font-size: 42px;
+    padding: 25px 0px;
+    font-family: 'MuseoSansCyrl_700';
+}
+.section_avto p{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 24px;
+    font-family: 'MuseoSansCyrl_100';
+    color: #2c2c2c;
+}
+.cont1{
+    position: relative;
+    border-radius: 12px;
+    background: #fff url(img/bg.png) top left no-repeat;
+    height: 425px;
+    text-align: right;
+}
+#feedback {
+    display:none;
+}
+p.Pin_cont {
+    text-align: left;
+    font-family: 'MuseoSansCyrl_700';
+    font-weight: bold;
+    font-size: 26px;
+    padding-top: 25px;
+}
+.knp{
+    margin-top: 41px;
+}
+.knp a{
+    text-decoration: none;
+    color: #fff;
+    padding: 24px 36px;
+    border: 1px solid #f40b0b;
+    background: #f40b0b;
+    border-radius: 52px;
+        box-shadow: 0px 5px 21px 5px #f40b0b;
+}
+.knp a:hover {
+    box-shadow: 0px 5px 21px 5px #a40CB8;
+}
+img.priora{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: -222px
+}
+.main_cont{
+    width: 100%;
+    display: inline-block;
+    max-width: 870px;
+    text-align: left;
+}
+.main_cont li{
+    padding: 15px 0px;
+    list-style-image: url(img/elips.png);
+}
+.main_cont ul{
+    display: inline-block;
+}
+.main_cont li:nth-child(odd) {
+    max-width: 329px;
+    width: 100%;
+}
+.main_cont ul li {
+    font-size: 16px;
+    color: #1f1f20;
+    font-family: 'MuseoSansCyrl_100';
+    position: relative;
+    padding: 0 0 0 20px;
+    display: inline-block;
+    margin: 0 0 18px;
+    list-style-image: url(img/elips.png);
+}
+.cont2{
+    position: relative;
+    border-radius: 12px;
+    background: #fff url(img/bg.png) top left no-repeat;
+    height: 425px;
+    text-align: right;
+        margin-top: 40px;
+}
+img.Mers{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: -222px
+}
+.resp_section{
+        position: relative;
+        height: 400px;
+}
+.resp_s{
+    background: url(img/bg.jpg) top center;
+    padding: 1px 0 1px;
+    max-height: 460px;
+}
+
+
+.main_resp{
+    max-width: 660px;
+}
+.main_resp h1{
+    color: #fff;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+.main_resp p{
+    color: #fff;
+    font-size: 21px;
+    padding-bottom: 25px;
+    font-weight: 300;
+}
+.but{
+    display: flex;
+}
+.but a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #f10e0e;
+    border-radius: 72px;
+    padding: 20px 20px 41px 26px;
+    max-height: 0px;
+    margin-top: 17px;
+    margin-left: 40px;
+    background-color: #f10e0e;
+    box-shadow: 0px 1px 12px 5px #f10e0e;
+}
+img.OOO {
+        position: absolute;
+    right: 50px;
+    top: 0;
+}
+img.av{
+    position: absolute;
+    top: 110px;
+    right: 80px;
+}
+.main-item {
+    background: url(img/p1.jpg) top center no-repeat;
+}
+.main-item span{
+        width: 40px;
+    line-height: 40px;
+    background: #f40b0b;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Museo Sans Cyrl 700';
+    margin: 30px 40px;
+}
+.main-item p {
+    margin: 0 0 0 0;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Museo Sans Cyrl 700';
+}
+h2.resp-tab-active span.resp-arrow {
+    border: none;
+    -o-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+.resp-arrow {
+    background: url(img/sr.png) center no-repeat;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 40px;
+    margin: auto;
+    width: 18px;
+    height: 8px;
+    display: block;
+    z-index: 2222222222;
+}
+.resp-tab-content {
+    padding: 29px 40px 27px !important;
+    background: #efefef;
+}
+h2.resp-accordion {
+    background: #000 !important;
+    position: relative;
+    margin: 10px 0 0px !important;
+}
+p.quest{
+    color: #000;
+    font-size: 42px;
+    padding-top: 140px;
+    padding-bottom: 120px;
+    padding-left: 23px;
+}
+.telefon a:hover {
+    background-color: #000;
+    color: #fff;
+    transition: 0.5s;
+}
+.ajax{
+    background: #fff;
+}
+.mains{
+    display: flex;
+    justify-content: space-around;
+    height: 140px;
+}
+.infao{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.infao a{
+    color: #000;
+    font-size: 18px;
+}
+.logo12 {
+    align-self: center;
+    display: flex;
+    /* position: relative; */
+}
+.telefon{
+    align-self: center;
+    display: flex;
+}
+.telefon a{
+    text-decoration: none;
+    color: #2c2c2c;
+    border: 1px solid #e5e5e5;
+    padding: 15px;
+    border-radius: 45px;
+}
+.telefon p{
+    align-self: center;
+    padding-right: 10px;
+    color: #2c2c2c;
+}
